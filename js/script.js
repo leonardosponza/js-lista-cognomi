@@ -5,7 +5,8 @@ var utenti = ['leo@gmail.com', 'pollo@gmail.com', 'nano@gmail.com', 'giu@gmail.c
 for(var i = 0; i < utenti.length; i++) 
 {
     if(utente == utenti[i]){
-        found = 'Bentornato utente ' + utente;
+        accettato = 'Bentornato utente ' + utente;
     }
-    else('errore mail non vailda')
+    else{accettato ='errore mail non vailda'}
 }
+document.getElementById('mail').innerHTML = accettato
