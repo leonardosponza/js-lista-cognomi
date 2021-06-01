@@ -27,4 +27,4 @@ for (var i = 0; i < cognomi.length; i++) {
         posizione = i + 1;
     }
 }
-document.getElementById('position').innerHTML += posizione;
+document.getElementById('position').innerHTML += posizione;   
